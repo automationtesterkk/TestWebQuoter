@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{EDE5FF65-96B9-4424-BABE-F202CA491846}">
+	<children>
+		<child name="TestWebQuoter" key="{FBDF1727-A6C1-435B-8B70-BD8DDA37AB7E}" path="TestWebQuoter\TestWebQuoter.mds" />
+	</children>
+	<testItems key="{4FE11DA3-0BEA-4438-ACEB-009555049140}">
+		<children>
+			<testItem key="{FBDF1727-A6C1-435B-8B70-BD8DDA37AB7E}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{70B470C9-1E89-4568-A7AB-BE75A5DE09BC}" />
+	<analysis key="{C8834C98-AE6D-42B5-9458-00477EB64E76}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
