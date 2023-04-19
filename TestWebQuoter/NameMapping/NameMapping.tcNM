@@ -3,6 +3,161 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D689677C-BB3D-4D76-95E4-5EE329ACFE41}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{A024718C-232C-4399-A477-28DC83306F2F}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{66749839-9675-4132-A97E-624CD2B3DD09}">
+								<Image FileName="1631575447" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageStart" Key="{446D8017-A4DE-42F0-94D3-E3BD9063501E}">
+								<Image FileName="1631575447" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7F2230D0-2426-409C-9499-0A638790FF55}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://epic.quote.brokerlink.brainbox.dev/home*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="labelDetached" Key="{E4A59724-E2F6-483C-960E-B0308C55F5F7}">
+										<Image FileName="-1192536207" Left="405" Top="468" Right="565" Bottom="621" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Detached&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{63D9796F-C66F-4DD2-8A23-1CE634B94444}">
+										<Image FileName="-1192536207" Left="437" Top="495" Right="534" Bottom="570" />
+										<TypeInfo Item0="{371D8512-3E22-4AB2-8EF0-46AA3CA7C1C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//label//*[name()=&apos;svg&apos;][contains(@class, &apos;detached&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//label//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTalkToARealPerson" Key="{B2B1CB6A-64F1-43F3-BA81-236500DCB383}">
+										<Image FileName="-424092288" Left="0" Top="71" Right="1920" Bottom="951" />
+										<TypeInfo Item0="{371D8512-3E22-4AB2-8EF0-46AA3CA7C1C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Talk to a real person&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress" Key="{16A60215-7AB9-4169-9435-5B8CB04FABF6}">
+										<Image FileName="203275710" Left="405" Top="743" Right="945" Bottom="784" />
+										<TypeInfo Item0="{E49EE6FB-094C-4F19-B01A-7B85C32DBD54}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[starts-with(@id, (//label[.=&apos;What is your address?&apos;]/@for))]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;address&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel83" Key="{4B6093EE-6CF2-482E-9D09-2629D66DA95F}">
+										<Image FileName="799518353" Left="417" Top="381" Right="932" Bottom="430" />
+										<TypeInfo Item0="{371D8512-3E22-4AB2-8EF0-46AA3CA7C1C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Silurian Dr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;83 Silurian Dr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div[contains(@class, &apos;pcaitem&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGetQuotes" Key="{AC65DE9A-C179-4D4B-B8A0-577B98418534}">
+										<Image FileName="172959548" Left="405" Top="804" Right="585" Bottom="859" />
+										<TypeInfo Item0="{BDA4D440-E10E-4E79-A2E8-E93557AEE934}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Get Quotes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main/div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="numberinputRebuildValue" Key="{2AAB627A-88B9-4BF5-8D38-3F4B5626CA57}">
+										<Image FileName="845081491" Left="607" Top="472" Right="1192" Bottom="513" />
+										<TypeInfo Item0="{371D8512-3E22-4AB2-8EF0-46AA3CA7C1C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Rebuild Value&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#house_rebuild_value" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;house_rebuild_value&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;question_1&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{A024718C-232C-4399-A477-28DC83306F2F}">
+			<Child Name="BrowserWindow" Owner="{66749839-9675-4132-A97E-624CD2B3DD09}" />
+			<Child Name="pageStart" Owner="{446D8017-A4DE-42F0-94D3-E3BD9063501E}">
+				<Child Name="labelDetached" Owner="{E4A59724-E2F6-483C-960E-B0308C55F5F7}">
+					<Child Name="vg" Owner="{63D9796F-C66F-4DD2-8A23-1CE634B94444}" />
+				</Child>
+				<Child Name="textnodeTalkToARealPerson" Owner="{B2B1CB6A-64F1-43F3-BA81-236500DCB383}" />
+				<Child Name="textboxAddress" Owner="{16A60215-7AB9-4169-9435-5B8CB04FABF6}" />
+				<Child Name="panel83" Owner="{4B6093EE-6CF2-482E-9D09-2629D66DA95F}" />
+				<Child Name="buttonGetQuotes" Owner="{AC65DE9A-C179-4D4B-B8A0-577B98418534}" />
+				<Child Name="numberinputRebuildValue" Owner="{2AAB627A-88B9-4BF5-8D38-3F4B5626CA57}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>

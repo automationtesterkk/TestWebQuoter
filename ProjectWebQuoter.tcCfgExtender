@@ -21,9 +21,13 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{EDE5FF65-96B9-4424-BABE-F202CA491846}"/>
+				<Prp name="activity" type="S" value="{3C6198F9-C0DD-42F1-AA03-0FDF9080B729}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{a17e252b-2632-4bb7-93e9-c143ac9a8a7f}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
@@ -44,7 +48,15 @@
 			<Node name="{86873e45-42bf-4c44-8fbd-d6bdfbfd5189}"/>
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+					<Node name="{044b5925-b386-4cff-b208-f95fcaa8f9f7}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000002400000078016364606060046266208601101F04982014030000DC0009"/>
+						</Node>
+					</Node>
 					<Node name="{35cfd188-d0c7-47b0-8dc4-9621fa5ecac5}\testdata">
+						<Node name="expanding"/>
+					</Node>
+					<Node name="{3c6198f9-c0dd-42f1-aa03-0fdf9080b729}\testdata">
 						<Node name="expanding"/>
 					</Node>
 					<Node name="{52bb277c-875c-4399-9a52-4de3abfbd2ce}\testdata">
@@ -52,6 +64,16 @@
 					</Node>
 					<Node name="{bc565a13-b239-4d83-b708-a82136a89cf6}\testdata">
 						<Node name="expanding"/>
+					</Node>
+					<Node name="{ccddcf75-ca02-4ec4-88d7-17c654471985}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000003400000078016366400046201384618019C860026298180B54020001BC0010"/>
+						</Node>
+					</Node>
+					<Node name="{cd3f74c2-4bc6-4e13-bcb2-7fa3ebf4641c}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000001C0000007801636260606044C2402603338800020000A80009"/>
+						</Node>
 					</Node>
 				</Node>
 			</Node>
@@ -72,6 +94,16 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{7000a474-0577-476c-9e07-e8323d340bd2}">
+						<Node name="0">
+							<Prp name="bottom" type="I" value="23"/>
+							<Prp name="collapsed" type="B" value="0"/>
+							<Prp name="top" type="I" value="0"/>
+						</Node>
+						<Prp name="bottom" type="I" value="23"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
 				</Node>
 			</Node>
 			<Node name="{dadeeeea-7bf7-4f7b-98d1-fc8ffe5fedae}">
@@ -80,9 +112,13 @@
 			</Node>
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="projectwebquoter">
-					<Node name="testwebquoter"/>
+					<Node name="testwebquoter">
+						<Node name="keywordtests"/>
+					</Node>
 				</Node>
-				<Node name="projectwebquoter logs"/>
+				<Node name="projectwebquoter logs">
+					<Node name="testwebquoter logs"/>
+				</Node>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
